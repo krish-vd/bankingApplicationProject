@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 public class ba{
     public static void main(String[] args) {
@@ -103,5 +102,6 @@ class bankAccount{
         }
         while(option!='E');
             System.out.println("Thank you for using our services");
+            sc.close();
     }
 }
